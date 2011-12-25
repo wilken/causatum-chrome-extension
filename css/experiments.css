@@ -1,0 +1,47 @@
+.causatum-tray {
+  position: fixed;
+  background-color: #eeeeee;
+  top: -2px;
+  left: -400px;
+  width: 400px;
+  height: 100%;
+  z-index:999999997 !important;
+}  
+.causatum-shade {
+  position: absolute;
+  left: 400px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAABCAYAAADq6085AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMi8yMy8xMUOBC44AAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzQGstOgAAAAF0lEQVQImWNkYGBYwcDA8BEJf0CjUdgA9yYLAgW9/XUAAAAASUVORK5CYII=);
+  width: 12px;
+  height: 100%;
+  z-index:999999999;  
+}
+.causatum-frame {
+  width: 396px;
+  height: 100%;
+}
+.causatum-content {
+  position: absolute;
+  background-color: #eeeeee;
+  left: 00px;
+  width: 400px;
+  height: 100%;
+  z-index:999999999;
+}  
+
+.causatum-icon {
+  color: white;
+  cursor: pointer;
+}
+
+.causatum-icon:hover {
+  color: grey;
+  cursor: pointer;
+}
+.causatum-icons {
+  position: absolute;
+  left: 360px;
+  background-color: #666666;
+  width: 40px;
+  height: 100%;
+  z-index:999999998;
+  }
