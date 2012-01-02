@@ -2,7 +2,7 @@
   "name": "Causatum event submitter",
   "version": "1.0",
   "description": "The first extension that I made.",
-  "permissions": ["contextMenus", "tabs", "http://*/*"],
+  "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
   "background_page": "background.html",
   "content_security_policy": "default-src 'none'; script-src 'self'"
 }
